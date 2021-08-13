@@ -1,5 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import './styles/main.scss';
+
+export const Header = () => {
+  return(
+    <div>
+    </div>
+  )
+}
+
 
 function App() {
   return (
