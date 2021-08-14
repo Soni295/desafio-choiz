@@ -1,0 +1,26 @@
+.slide {
+  display: grid;
+  position: relative;
+  grid-template-columns: 5fr 3fr;
+  height: 35.625rem;
+
+  &__slogan {
+    margin: auto;
+    font-weight: 500;
+    margin-left: 9.375rem;
+    color: $white;
+    font-size: 5.5em;
+  }
+
+  &::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 90%;
+    width: 37.5rem;
+    border-radius: 0 0 100% 0;
+    background: $quarter-of-circule;
+  }
+}

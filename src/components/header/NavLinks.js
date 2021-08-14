@@ -9,7 +9,7 @@ export const NavLinks = () => {
     { linkName: 'Contacto' }
   ]
   return(
-    <div className='header__links'>
+    <div className='navbar__links'>
       {links.map((link, index)=>
         <HeaderLink {...link}
           key={index + 'link'}

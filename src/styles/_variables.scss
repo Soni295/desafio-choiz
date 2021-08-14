@@ -1,11 +1,8 @@
-$background:white;
-$white: #fff;
+$white: #fff; // for fonts
 $white-transparent: #ffffff1f;
-$white-transparent2: #ffffffa1;
 $gray: #383948;
+$font-light-gray: #858585; // for hovers
 
-$font-light-gray: #858585;
-$main-color:white;
-$secondary-color:red;
-$orange: #ff9d60;
-$light-pink: #ff7d7f;
+// for header
+$header-bg: linear-gradient(192deg, #ff9d60 4%, #ae39d4 100%);
+$quarter-of-circule: linear-gradient(180deg, #0000 6%, #ffffff47);

@@ -1,49 +1,53 @@
 .header {
-  font-size: 1.5rem;
-  display: grid;
-  grid-template-columns: 3fr 6fr 2fr;
-  align-items: center;
-  justify-items: center;
-  background: linear-gradient(90deg, $light-pink 0%, $orange 100%);
-  height: 100px;
+  background: $header-bg;
+  height: 41.875rem;
 
-  &__branch {
-    color: $white;
-    font-size: 1.5em;
-  }
+  .navbar {
+    display: grid;
+    font-size: 1.5rem;
+    grid-template-columns: 3fr 6fr 2fr;
+    align-items: center;
+    justify-items: center;
+    height: 6.25rem;
 
-  &__links  {
-    justify-self: normal;
-    display: flex;
-    font-size: 1em;
-    font-weight: 500;
-
-    &__link {
+    &__branch {
       color: $white;
-      transition: 500ms;
-      margin: 0 auto;
+      font-size: 1.5em;
+    }
+
+    &__links  {
+      justify-self: normal;
+      display: flex;
+      font-size: 1em;
+      font-weight: 500;
+
+      &__link {
+        color: $white;
+        transition: 500ms;
+        margin: 0 auto;
+
+        &:hover {
+          color: $font-light-gray;
+        }
+      }
+    }
+
+    &__qa-button {
+      justify-self: flex-start;
+      font-size: 1.25rem;
+      color: $white;
+      border-radius: 0.3125rem;
+      padding: 0.5rem 0.625rem;
+      border: 0.0625rem solid $white;
+      background: $white-transparent;
+      transition: 600ms;
+      cursor: pointer;
 
       &:hover {
-        color: $font-light-gray;
+        background: #ffffffa1;
+        color: $gray;
+        border: solid 0.0625rem;
       }
     }
   }
-  &__qa-button {
-    justify-self: flex-start;
-    font-size: 20px;
-    color: $white;
-    border-radius: 5px;
-    padding: 8px 10px;
-    border: 1px solid $white;
-    background: $white-transparent;
-    transition: 600ms;
-    cursor: pointer;
-    &:hover {
-
-      background: #ffffffa1;
-      color: $gray;
-      border: solid 1px;
-    }
-  }
-
 }
