@@ -1,0 +1,14 @@
+.consultation {
+  margin: 0 11%;
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  height: 350px;
+  align-items: center;
+  margin-bottom: 300px;
+
+  &__description {
+    width: 714px;
+    font-size: 40px;
+    margin-left: 30px;
+  }
+}

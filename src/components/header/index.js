@@ -1,17 +1,5 @@
-import { Branch } from './Branch'
-import { NavLinks } from './NavLinks'
-import { QAButton } from './QAButton'
 import { SlideBar } from './SlideBar'
-
-export const NavBar = () => {
-  return(
-    <div className='navbar'>
-      <Branch />
-      <NavLinks />
-      <QAButton />
-    </div>
-  )
-}
+import { NavBar } from './navbar'
 
 export const Header = () => {
   return(
@@ -21,4 +9,3 @@ export const Header = () => {
     </header>
   )
 }
-//

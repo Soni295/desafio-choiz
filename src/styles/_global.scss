@@ -6,3 +6,19 @@ body, * {
 a {
   text-decoration: none;
 }
+button {
+  cursor: pointer;
+}
+
+.btn-pink {
+  color: $white;
+  font-size: 30px;
+  background: $pink;
+  padding: 18px 62px;
+  font-size: 28px;
+  border: none;
+  border-radius: 10px;
+  &:hover {
+    background: $header-bg;
+  }
+}
