@@ -1,0 +1,49 @@
+.price-seccion {
+  background: $solf-white;
+  padding-bottom: 300px;
+  margin-bottom: 300px;
+}
+.title {
+  padding-top: 80px;
+  margin-bottom: 50px;
+  font-size: 62px;
+  text-align: center;
+}
+.list-of-price {
+  width: 53%;
+  margin: auto;
+  margin-bottom: 45px;
+
+  &__title {
+    padding: 25px;
+    font-size: 30px;
+  }
+  & > table {
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    border-collapse: collapse;
+
+    & > thead > tr {
+
+      & > th:nth-child(1) {
+        width: 320px;
+        padding: 25px;
+      }
+
+      & > th:nth-child(2) {
+        width: 320px;
+      }
+    }
+
+    & > tbody > tr {
+      background: $white;
+      border-bottom: 2px solid $very-light-gray;
+
+      & > td:nth-child(1) {
+        width: 320px;
+        padding: 25px;
+      }
+    }
+  }
+}

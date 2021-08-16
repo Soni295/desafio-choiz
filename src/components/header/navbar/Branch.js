@@ -1,3 +1,3 @@
-export const Branch = () => (
-  <a className='navbar__branch' href='#'>Choiz</a>
+export const Branch = ({href='#'}) => (
+  <a className='navbar__branch' href={href}>Choiz</a>
 )

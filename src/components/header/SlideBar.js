@@ -4,7 +4,6 @@ export const SlideBar = () => {
       <p className='slide__slogan'>
         Cuidarte siempre te cuesta menos con Choiz
       </p>
-      <img/>
     </div>
   )
 }
