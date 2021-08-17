@@ -25,3 +25,17 @@ button {
 .separator {
   border: 1px $very-light-gray solid;
 }
+.title {
+  margin-bottom: 50px;
+  font-size: 62px;
+  text-align: center;
+}
+
+.circular-icon {
+  $measure: 60px;
+  background: red;
+  height: $measure;
+  width: $measure;
+  border-radius: 99999px;
+  margin: auto;
+}

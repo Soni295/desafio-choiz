@@ -1,23 +1,17 @@
 .price-seccion {
   background: $solf-white;
   padding-bottom: 300px;
-  margin-bottom: 300px;
-}
-.title {
   padding-top: 80px;
-  margin-bottom: 50px;
-  font-size: 62px;
-  text-align: center;
 }
 .list-of-price {
-  width: 53%;
-  margin: auto;
+  @include section-size;
   margin-bottom: 45px;
 
   &__title {
     padding: 25px;
     font-size: 30px;
   }
+
   & > table {
     width: 100%;
     text-align: left;

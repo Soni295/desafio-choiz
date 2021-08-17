@@ -1,8 +1,7 @@
-export const BtnPink= ({onClick, ...rest}) => {
+export const BtnPink= ({...rest}) => {
   return(
     <button
       className='btn-pink'
-      onClick={onClick}
       {...rest}
     >Agregar una consulta</button>
   )

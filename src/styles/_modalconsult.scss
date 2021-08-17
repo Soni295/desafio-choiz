@@ -1,0 +1,70 @@
+$light-gray: #7c7c7c;
+
+.modal {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 10;
+  &__box {
+    width: 90%;
+    height: 800px;
+    background-color: $light-pink;
+    border-radius: 100px;
+    display: grid;
+    grid-template-rows: 128px 116px auto;
+    &__head {
+      cursor: pointer;
+      justify-self: end;
+      margin-right: 88px;
+      margin-top: 23px;
+      font-size: 80px;
+    }
+    &__title {
+      font-size: 50px;
+      text-align: center;
+    }
+    &__body {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      align-items: initial;
+      justify-items: center;
+      text-align: center;
+
+      margin: auto;
+      margin-top: 40px;
+      width: 80%;
+
+      &__step {
+        width: 400px;
+
+        & > .number {
+          font-size: 30px;
+          margin: 18px;
+          font-weight: 600;
+        }
+
+        & > .message {
+          font-size: 28px;
+          margin: 15px;
+        }
+
+        & > .message-complementary {
+          font-size: 25px;
+          margin: 15px;
+        }
+
+        & > .comment {
+          color: $light-gray;
+          font-size: 18px;
+          margin: 15px;
+        }
+      }
+    }
+  }
+}

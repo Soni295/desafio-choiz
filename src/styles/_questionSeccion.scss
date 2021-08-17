@@ -1,0 +1,12 @@
+.questions-seccion {
+  padding-top: 75px;
+  &__box {
+    @include section-size;
+    & > .question {
+      &__box {
+        background-color: red;
+        font-size: 40px;
+      }
+    }
+  }
+}
