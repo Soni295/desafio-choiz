@@ -1,4 +1,4 @@
-# Es un desafio de una landind Page
+# Es un desafio de una landind Page para Choiz
 ---
 
 Para clonar e installar el repositorio
@@ -12,4 +12,5 @@ Para iniciar el proyecto, por default este iniciara en el puerto 3000
 ```sh
 $ npm start
 ```
+Vista principal
 <img src='./View.png' width="200">
