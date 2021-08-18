@@ -13,4 +13,6 @@ Para iniciar el proyecto, por default este iniciara en el puerto 3000
 $ npm start
 ```
 Vista principal
+
+
 <img src='./View.png' width="200">
