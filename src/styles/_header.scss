@@ -1,24 +1,25 @@
 .header {
   background: $header-bg;
-  height: 41.875rem;
+  height: 670 * $rem;
 
   .navbar {
+
     display: grid;
-    font-size: 1.5rem;
+    font-size: 24 * $em;
     grid-template-columns: 3fr 6fr 2fr;
     align-items: center;
     justify-items: center;
-    height: 6.25rem;
+    height: 100 * $rem;
 
     &__branch {
       color: $white;
-      font-size: 1.5em;
+      font-size: 24 * $em;
     }
 
     &__links  {
       justify-self: normal;
       display: flex;
-      font-size: 1em;
+      font-size: 17 * $em;
       font-weight: 500;
 
       &__link {
@@ -34,11 +35,11 @@
 
     &__qa-button {
       justify-self: flex-start;
-      font-size: 1.25rem;
+      font-size: 16 * $em;
       color: $white;
-      border-radius: 0.3125rem;
-      padding: 0.5rem 0.625rem;
-      border: 0.0625rem solid $white;
+      border-radius: 5 * $rem;
+      padding: 8 * $rem 10 * $rem;
+      border: 1px solid $white;
       background: $white-transparent;
       transition: 600ms;
       cursor: pointer;
@@ -46,7 +47,7 @@
       &:hover {
         background: #ffffffa1;
         color: $gray;
-        border: solid 0.0625rem;
+        border: solid 1px;
       }
     }
   }

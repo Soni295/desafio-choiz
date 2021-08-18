@@ -11,7 +11,10 @@ export const ListOfPrices = ({category, items}) => {
           <tr>
             <th>Marcas que ofrecemos</th>
             <th>Laboratorio</th>
-            <th>Precio</th>
+            <th className='price'>
+              <p>Precio </p>
+              <p className='comment'>(sin cobertura médica)</p>
+            </th>
           </tr>
         </thead>
         <tbody>

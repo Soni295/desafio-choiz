@@ -10,7 +10,7 @@ export const useFetchAll = () => {
   useEffect(() => {
     dispatch(fetchListOfPrices())
     dispatch(fetchFrequentQuestions())
-  }, [])
+  }, [dispatch])
 
   return all
 }
