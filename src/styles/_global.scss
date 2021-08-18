@@ -12,12 +12,12 @@ button {
 }
 .btn-pink {
   color: $white;
-  font-size: 30px;
   background: $pink;
-  padding: 18px 62px;
   font-size: 28px;
+  padding: 18 * $rem 62 * $rem;
+  border-radius: 10 * $rem;
   border: none;
-  border-radius: 10px;
+
   &:hover {
     background: $header-bg;
   }
@@ -26,13 +26,13 @@ button {
   border: 1px $very-light-gray solid;
 }
 .title {
-  margin-bottom: 50px;
-  font-size: 62px;
+  font-size: 62 * $rem;
+  margin-bottom: 50 * $rem;
   text-align: center;
 }
 
 .circular-icon {
-  $measure: 60px;
+  $measure: 60 * $rem;
   background: red;
   height: $measure;
   width: $measure;

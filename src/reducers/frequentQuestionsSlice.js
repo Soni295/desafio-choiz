@@ -14,7 +14,7 @@ export const frequentQuestionsSlice = createSlice({
   initialState: {
     status: 'idle',
     error: null,
-    data: {}
+    data: []
   },
   reducers: {},
   extraReducers: {

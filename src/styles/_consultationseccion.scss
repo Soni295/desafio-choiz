@@ -4,17 +4,17 @@
   &__box{
     display: grid;
     grid-template-columns: 5fr 3fr;
-    height: 350px;
+    height: 350 * $em;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 30 * $rem;
 
   &__description {
-    width: 714px;
-    font-size: 40px;
-    margin-left: 30px;
+    font-size: 40 * $em;
+    width: 714 * $rem;
+    margin-left: 30 * $rem;
     }
   }
   & > .separator {
-    margin-top: 50px;
+    margin-top: 50 * $rem;
   }
 }

@@ -1,11 +1,46 @@
+.arrow {
+  cursor: pointer;
+  border: solid $pink ;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  width: 10px;
+  height: 10px;
+  margin: center;
+}
+
+.up {
+  transform: translate(25%, 50%) rotate(-135deg) ;
+}
+
+.down {
+  transform: translate(25%, 25%) rotate(45deg) ;
+}
+
 .questions-seccion {
   padding-top: 75px;
+
   &__box {
     @include section-size;
-    & > .question {
+
+    & .question {
+      border-bottom: solid 1px $very-light-gray;
+      padding: 20px 0;
+
       &__box {
-        background-color: red;
-        font-size: 40px;
+        display: grid;
+        margin: 10px 0;
+        grid-template-columns: 95% 5%;
+
+        & > p {
+          font-size: 30px;
+        }
+
+        &__answer{
+          padding-top: 10px;
+          font-size: 25px;
+          color: $font-light-gray;
+        }
       }
     }
   }

@@ -1,6 +1,4 @@
-import { CircularIcon } from '../icons/CircularIcon'
 import { ModalStep } from './ModalStep'
-
 
 const steps = [
   {

@@ -1,19 +1,17 @@
+$em: 0.0625em;
+$rem: 0.0625rem;
+
 $white: #fff; // for fonts
 $solf-white: #f8f8f8; // for part bg
 $white-transparent: #ffffff1f;
 $gray: #383948;
+$font-black: #424b54;
 $font-light-gray: #858585; // for hovers
 $very-light-gray: #d7d7d7; // for hovers
 $orange: #ff9d60;
 $pink: #b700db;
 $light-pink: #fee4f8;
-$font-black: #424b54;
 
 // for header
 $header-bg: linear-gradient(192deg, $orange 6%, $pink 100%);
 $quarter-of-circule: linear-gradient(180deg, #0000 6%, #ffffff47);
-
-@mixin section-size {
-  width: 53%;
-  margin: auto;
-}
